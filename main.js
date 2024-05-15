@@ -21,5 +21,6 @@ for (let i = 1; i <= 100; i++) {
   const demoLI = document.createElement("li");
   demoLI.classList.add("col");
   ulLi.appendChild(demoLI);
+  demoLI.innerHTML = word;
   console.log(word);
 }
